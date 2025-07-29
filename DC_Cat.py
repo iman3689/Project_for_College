@@ -31,5 +31,4 @@ async def on_ready():
     await tree.sync(guild=discord.Object(id=GUILD_ID))
     print(f"✅ Bot 上線：{meow_bot.user}，Slash 指令已同步")
 
-# 啟動 Bot
 meow_bot.run(TOKEN)
